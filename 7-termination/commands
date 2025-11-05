@@ -1,0 +1,5 @@
+# Step 1: Compile the Java file
+javac TerminationDetection.java
+
+# Step 2: Run the program
+java TerminationDetection

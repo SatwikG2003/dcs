@@ -1,0 +1,8 @@
+# Step 1: Compile both files
+javac EchoServer.java EchoClient.java
+
+# Step 2: Run the server
+java EchoServer
+
+# Step 3: Open a new terminal and run the client
+java EchoClient

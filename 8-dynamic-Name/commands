@@ -1,0 +1,8 @@
+# Step 1: Compile both files
+javac DynamicNameServer.java DynamicNameClient.java
+
+# Step 2: Run the server
+java DynamicNameServer
+
+# Step 3: Open a new terminal and run the client
+java DynamicNameClient

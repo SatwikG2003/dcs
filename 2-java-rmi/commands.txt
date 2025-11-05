@@ -1,0 +1,8 @@
+# Step 1: Compile all Java files
+javac Adder.java AdderRemote.java MyServer.java MyClient.java
+
+# Step 2: Start the RMI server
+java MyServer
+
+# Step 3: Open a new terminal and run the client
+java MyClient

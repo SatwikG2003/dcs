@@ -1,0 +1,5 @@
+# Step 1: Compile the file
+javac Berkeley.java
+
+# Step 2: Run the program
+java Berkeley

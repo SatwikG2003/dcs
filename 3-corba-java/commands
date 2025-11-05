@@ -1,0 +1,28 @@
+Step 1: Start ORBD (Naming Service)
+
+Open a new terminal and run:
+
+orbd -ORBInitialPort 1050
+
+
+Step 2: Start the Server
+Open another terminal, go to your project folder:
+cd C:\Users\YASH\OneDrive\Desktop\DistributedPrograms\3-corba-java
+Run the server:
+
+java Server -ORBInitialHost localhost -ORBInitialPort 1050
+
+Output should be:
+Server ready...
+
+Step 3: Start the Client
+Open a third terminal, go to the project folder:
+cd C:\Users\YASH\OneDrive\Desktop\DistributedPrograms\3-corba-java
+Run the client:
+
+java Client -ORBInitialHost localhost -ORBInitialPort 1050
+
+
+Output should be:
+Got reference to HelloService
+Response from server: Hello, Student (from CORBA Server)

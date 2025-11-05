@@ -1,0 +1,8 @@
+# Step 1: Compile both algorithms
+javac BullyAlgorithm.java RingAlgorithm.java
+
+# Step 2: Run Bully Algorithm
+java BullyAlgorithm
+
+# Step 3: Run Ring Algorithm
+java RingAlgorithm
